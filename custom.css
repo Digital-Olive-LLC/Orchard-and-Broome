@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Shared styles for both desktop and mobile */
+        #shopify-section-template--15817208430748__6995f3b2-eda1-496a-a73f-bb15a94c29dd h3 {
+            font-weight: 300;
+            letter-spacing: 0.2em;
+            line-height: 24px;
+            text-align: center;
+        }
+
+        /* Styles for screen sizes above 750px */
+        .grid-section:not(.full-width) {
+            margin: var(--space-outer) 0;
+            padding: 0 var(--space-outer);
+            overflow: hidden;
+            padding-right: 70px;
+        }
+
+        /* Mobile breakpoint for screens under 750px */
+        @media only screen and (max-width: 750px) {
+            /* Remove styles for .grid-section:not(.full-width) */
+            .grid-section:not(.full-width) {
+                margin: 0;
+                padding: 0 !important;
+                overflow: visible;
+            }
+
+            /* Adjust the image and text layout for mobile screens */
+            #shopify-section-template--15817208430748__6995f3b2-eda1-496a-a73f-bb15a94c29dd .image-with-text__text {
+                padding: var(--spacing-large) !important;
+            }
+            #shopify-section-template--15817208430748__6995f3b2-eda1-496a-a73f-bb15a94c29dd .image-with-text__content {
+                text-align: center;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div id="shopify-section-template--15817208430748__6995f3b2-eda1-496a-a73f-bb15a94c29dd" class="shopify-section grid-section">
+        <section class="image-with-text image-with-text--p-right image-with-text--w-larger" data-section-id="template--15817208430748__6995f3b2-eda1-496a-a73f-bb15a94c29dd" data-section-type="image-with-text" style="--max-width-content: 46em;">
+            <div class="image-with-text__image image-with-text__image--present">
+                <div class="flexible-image" style="--ar: 53.5660091047041%">
+                    <img class="flexible-image__img lazyautosizes ls-is-cached lazyloaded" src="//orchardandbroome.com/cdn/shop/files/image_20_4_Crop_66_300x300.png?v=1687462820" data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]" data-aspectratio="1.86685552407932" data-sizes="auto" alt="" data-srcset="//orchardandbroome.com/cdn/shop/files/image_20_4_Crop_66_180x.png?v=1687462820 180w, //orchardandbroome.com/cdn/shop/files/image_20_4_Crop_66_360x.png?v=1687462820 360w, //orchardandbroome.com/cdn/shop/files/image_20_4_Crop_66_540x.png?v=1687462820 540w, //orchardandbroome.com/cdn/shop/files/image_20_4_Crop_66_720x.png?v=1687462820 720w, //orchardandbroome.com/cdn/shop/files/image_20_4_Crop_66_900x.png?v=1687462820 900w, //orchardandbroome.com/cdn/shop/files/image_20_4_Crop_66_1080x.png?v=1687462820 1080w, //orchardandbroome.com/cdn/shop/files/image_20_4_Crop_66_1296x.png?v=1687462820 1296w, //orchardandbroome.com/cdn/shop/files/image_20_4_Crop_66_1512x.png?v=1687462820 1512w, //orchardandbroome.com/cdn/shop/files/image_20_4_Crop_66_1728x.png?v=1687462820 1728w, //orchardandbroome.com/cdn/shop/files/image_20_4_Crop_66_2048x.png?v=1687462820 2048w">
+                </div>
+            </div>
+            <div class="image-with-text__text">
+                <div class="image-with-text__content">
+                    <h3 class="image-with-text__heading ff-heading fs-page-heading c-heading" data-theme-editor-setting="section.template--15817208430748__6995f3b2-eda1-496a-a73f-bb15a94c29dd.title">
+                        OUR STORY
+                    </h3>
+                    <div class="image-with-text__subheading fs-primary-body c-subheading" data-theme-editor-setting="section.template--15817208430748__6995f3b2-eda1-496a-a73f-bb15a94c29dd.text">
+                        <p>There are places in the world that are more than just locations on a map. They become larger, richer in meaning and brimming with potential – where ideas meet action and new paths are formed. These are the crossroads where we imagine, build and innovate.<br><br>The dynamic intersection of Orchard &amp; Broome is such a place – a diverse epicenter of creativity, vibrancy and community. Our brand exists as a tribute to this convergence of bustling energy and expression, a celebration of discovery, and a beacon for finding inspiration in your own neighborhood.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
